@@ -7,4 +7,9 @@ except ImportError:
     from setuptools import setup
 
 
-setup(setup_requires=['d2to1'], d2to1=True)
+setup(
+    setup_requires=['d2to1'],
+    d2to1=True,
+    # This is unsupported by d2to1
+    test_suite="zci.tests.test_suite"
+)
