@@ -1,5 +1,9 @@
 *.egg-info
+*.egg
 *.pyc
 __pycache__
 build
 dist
+htmlcov
+.coverage
+.c9revisions
