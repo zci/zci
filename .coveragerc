@@ -1,0 +1,11 @@
+[run]
+branch = True
+source = zci
+omit =
+
+[report]
+exclude_lines =
+    pragma: no cover
+    @abstractmethod
+    @abstractproperty
+    raise NotImplementedError
